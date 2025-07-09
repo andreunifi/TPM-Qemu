@@ -1,6 +1,10 @@
 # group7-TPM
 
 
+## Useful tips by Giuseppe
+API provided by Qemu doesn't mimick TPU behaviour, but instead relies on a subprogram. This cannot be used in the project, as the lab assistants pointed out.
+Solution: implement a standard TPM module using the open-source library openssl. (https://github.com/openssl/openssl)
+
 
 ## Getting started
 
