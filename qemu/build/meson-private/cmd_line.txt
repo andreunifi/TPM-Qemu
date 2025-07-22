@@ -1,0 +1,7 @@
+[options]
+docs = disabled
+plugins = true
+
+[properties]
+native_file = ['/media/andrea/Acer/group7-TPM/qemu/build/config-meson.cross']
+
