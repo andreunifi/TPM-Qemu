@@ -10,6 +10,7 @@
 
 #define TPM2_LOG(fmt, ...) qemu_log("%s: " fmt, __func__, ## __VA_ARGS__)
 
+
 static void tpm2_generate_random(TPM2State *s) {
     RAND_bytes(s->random_data, sizeof(s->random_data));
 }

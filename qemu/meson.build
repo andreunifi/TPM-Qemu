@@ -1808,6 +1808,11 @@ if get_option('gnutls').enabled() or (get_option('gnutls').auto() and have_syste
   endif
 endif
 
+#This line should add Opensll as a QEMU dependency,
+openssl = dependency('openssl', required: true)
+
+
+
 # We prefer use of gnutls for crypto, unless the options
 # explicitly asked for nettle or gcrypt.
 #
