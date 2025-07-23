@@ -123,6 +123,7 @@ static void tpm2_class_init(ObjectClass *klass, void *data) {
     DeviceClass *dc = DEVICE_CLASS(klass);
     device_class_set_legacy_reset(dc, tpm2_reset);
     dc->vmsd = &vmstate_tpm2;
+    dc->desc = "TPM 2.0 custom device";  // <-- This must be set!
 }
 
 static const TypeInfo tpm2_info = {
@@ -134,6 +135,8 @@ static const TypeInfo tpm2_info = {
 };
 
 static void tpm2_register_types(void) {
+    fprintf(stderr, "[DEBUG] tpm2_register_types called\n");
+    //sysbus_register_type(&tpm2_info);
     type_register_static(&tpm2_info);
 }
 

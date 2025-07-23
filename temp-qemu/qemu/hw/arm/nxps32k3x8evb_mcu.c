@@ -7,6 +7,8 @@
 #include "hw/misc/unimp.h"
 #include "qemu/log.h"
 
+//this include the TPM
+#include "tpm/tpm2_device.h"
 
 #include "hw/arm/nxps32k3x8evb_mcu.h"
 #include "hw/arm/nxps32k3x8evb.h"
@@ -14,12 +16,19 @@
 
 #include <stdio.h>
 
+//TODO: CHANGE THIS!
+#define TPM_BASE_ADDRESS                        ( 0xF0000000UL )
+#define TPM_SIZE                                ( 4 * 1024 )
+#define NXPS32K3X8EVB_TPM_BASE_ADDRESS          TPM_BASE_ADDRESS
+#define NXPS32K3X8EVB_TPM_SIZE                  TPM_SIZE
+
+
 // This function has the goal of initialize a single instance of the device class
 static void nxps32k3x8evb_mcu_init(Object *obj){
     NXPS32K3X8EVB_MCUState *s = NXPS32K3X8EVB_MCU(obj);
 
     memory_region_init(&s->container, obj, "nxps32k3x8evb-container", UINT64_MAX);
-    
+
     object_initialize_child(OBJECT(s), "armv7m", &s->cpu, TYPE_ARMV7M);
     qdev_prop_set_string(DEVICE(&s->cpu), "cpu-type", ARM_CPU_TYPE_NAME("cortex-m7"));
     qdev_prop_set_uint32(DEVICE(&s->cpu), "num-irq", NXPS32K3X8_IRQ_NUM);       // Random number
@@ -31,9 +40,9 @@ static void nxps32k3x8evb_mcu_init(Object *obj){
 // Defining realize function
 // Realizing make the device usable within the simulation
 static void nxps32k3x8evb_mcu_realize(DeviceState *dev_mcu, Error **errp){
-    Error *err = NULL; 
+    Error *err = NULL;
     NXPS32K3X8EVB_MCUState *s = NXPS32K3X8EVB_MCU(dev_mcu);
- 
+
     // Initialize system clock
     clock_set_hz(s->sysclk, NXPS32K3X8_STD_CLK);
     qdev_connect_clock_in(DEVICE(&s->cpu), "cpuclk", s->sysclk);
@@ -97,8 +106,26 @@ static void nxps32k3x8evb_mcu_realize(DeviceState *dev_mcu, Error **errp){
         printf("MCU realization failed");
         return;
     }
-    
+
     memory_region_add_subregion_overlap(&s->container, 0, s->board_memory, -1);
+
+    // ========= ADD  TPM 2.0 =========
+    DeviceState *tpm = qdev_new("tpm2");
+    SysBusDevice *sbd = SYS_BUS_DEVICE(tpm);
+    // qdev_prop_set_string(tpm, "tpmdev", "tpm0"); -- Useful for swtpm
+
+
+    if (!sysbus_realize_and_unref(sbd, errp))
+        return;
+
+    memory_region_add_subregion(&s->container, NXPS32K3X8EVB_TPM_BASE_ADDRESS, sysbus_mmio_get_region(sbd, 0));
+    memory_region_set_size(sysbus_mmio_get_region(sbd, 0), NXPS32K3X8EVB_TPM_SIZE);
+
+    memory_region_add_subregion_overlap(&s->container, 0, s->board_memory, -1);
+
+
+
+
 
 }
 
@@ -106,10 +133,10 @@ static void nxps32k3x8evb_mcu_realize(DeviceState *dev_mcu, Error **errp){
 
 //
 static Property nxps32k3x8evb_properties[] = {
-    DEFINE_PROP_LINK("memory", NXPS32K3X8EVB_MCUState, board_memory, TYPE_MEMORY_REGION, MemoryRegion *),  
-    DEFINE_PROP_UINT32("itcm-size", NXPS32K3X8EVB_MCUState, itcm_size, ITCM_SIZE), 
+    DEFINE_PROP_LINK("memory", NXPS32K3X8EVB_MCUState, board_memory, TYPE_MEMORY_REGION, MemoryRegion *),
+    DEFINE_PROP_UINT32("itcm-size", NXPS32K3X8EVB_MCUState, itcm_size, ITCM_SIZE),
     DEFINE_PROP_UINT32("pflash-size", NXPS32K3X8EVB_MCUState, pflash_size, PFLASH_SIZE),
-    DEFINE_PROP_UINT32("sram-size", NXPS32K3X8EVB_MCUState, sram_size, SRAM_SIZE), 
+    DEFINE_PROP_UINT32("sram-size", NXPS32K3X8EVB_MCUState, sram_size, SRAM_SIZE),
     DEFINE_PROP_UINT32("dflash-size", NXPS32K3X8EVB_MCUState, dflash_size, DFLASH_SIZE),
 };
 
@@ -121,8 +148,8 @@ static void nxps32k3x8evb_mcu_class_init(ObjectClass *klass, void *data){
     // Setting the realize function
     dc->realize = nxps32k3x8evb_mcu_realize;
     device_class_set_props_n(dc, nxps32k3x8evb_properties, sizeof(nxps32k3x8evb_properties)/sizeof(Property));
-   
-   
+
+
 
 }
 
@@ -130,13 +157,12 @@ static const TypeInfo nxps32k3x8evb_mcu_info = {
     .name           = TYPE_NXPS32K3X8EVB_MCU,
     .parent         = TYPE_SYS_BUS_DEVICE,
     .instance_size  = sizeof(NXPS32K3X8EVB_MCUState),
-    .instance_init  = nxps32k3x8evb_mcu_init,               
-    .class_init     = nxps32k3x8evb_mcu_class_init, 
+    .instance_init  = nxps32k3x8evb_mcu_init,
+    .class_init     = nxps32k3x8evb_mcu_class_init,
 };
 
 static void nxps32k3x8evb_mcu_types(void){
-  type_register_static(&nxps32k3x8evb_mcu_info);  
+  type_register_static(&nxps32k3x8evb_mcu_info);
 }
 
 type_init(nxps32k3x8evb_mcu_types);
-

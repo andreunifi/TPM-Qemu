@@ -24,7 +24,7 @@ OBJECT_DECLARE_SIMPLE_TYPE(nxps32k3x8evbMachineState, NXPS32K3X8EVB_MACHINE)
 // Entry point for setting up the system
 static void nxps32k3x8evb_init(MachineState *machine){
     nxps32k3x8evbMachineState *s = NXPS32K3X8EVB_MACHINE(machine);
-   
+
     MemoryRegion *system_memory = get_system_memory();
 
     object_initialize_child(OBJECT(machine), "NXPS32K3X8EVB_MCUS", &s->mcu, TYPE_NXPS32K3X8EVB_MCU);
@@ -32,7 +32,7 @@ static void nxps32k3x8evb_init(MachineState *machine){
     object_property_set_link(OBJECT(&s->mcu), "memory", OBJECT(system_memory), &error_fatal);
 
     sysbus_realize(SYS_BUS_DEVICE(&s->mcu), &error_fatal);
-    
+
     if(machine->kernel_filename)
         armv7m_load_kernel(ARM_CPU(first_cpu), machine->kernel_filename, 0, s->mcu.pflash_size);
 }
