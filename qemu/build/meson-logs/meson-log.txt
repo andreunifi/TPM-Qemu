@@ -1,4 +1,4 @@
-Build started at 2025-07-22T17:22:37.085185
+Build started at 2025-07-23T09:08:51.320546
 Main binary: /media/andrea/Acer/group7-TPM/qemu/build/pyvenv/bin/python3
 Build Options: -Ddocs=disabled -Dplugins=true --native-file=config-meson.cross
 Python system: Linux
@@ -30,7 +30,7 @@ This program has absolutely no warranty.
 -----------
 stderr:
 collect2 version 13.3.0
-/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEq51FF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7GT0Lh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
 -----------
 Sanity testing C compiler: cc -m64
 Is cross compiler: False.
@@ -73,7 +73,7 @@ This program has absolutely no warranty.
 -----------
 stderr:
 collect2 version 13.3.0
-/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZDpNLi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc17XjaM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
 -----------
 Sanity testing C compiler: cc -m64
 Is cross compiler: False.
@@ -109,7 +109,7 @@ Compiler for language rust skipped: feature rust disabled
 Program iasl found: NO
 Program bzip2 found: YES (/usr/bin/bzip2)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiyiiyxz
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3fp4qiep
 Code:
 
     int main(int argc, char *argv[])
@@ -121,9 +121,9 @@ Code:
       return 0;
     }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiyiiyxz/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiyiiyxz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror -fstack-protector-strong` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3fp4qiep/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3fp4qiep/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror -fstack-protector-strong` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2tmdgw86
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpge7s_y6q
 Code:
 
     int main(int argc, char *argv[])
@@ -135,9 +135,9 @@ Code:
       return 0;
     }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2tmdgw86/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2tmdgw86/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror -fstack-protector-strong` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpge7s_y6q/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpge7s_y6q/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror -fstack-protector-strong` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2kvcewi0
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3al0oxnf
 Code:
 
   #include <ucontext.h>
@@ -146,9 +146,9 @@ Code:
   #endif
   int main(void) { makecontext(0, 0, 0); return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2kvcewi0/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2kvcewi0/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3al0oxnf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3al0oxnf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpym_48w4t
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsdc8e2lc
 Code:
 
   int main(void)
@@ -161,50 +161,50 @@ Code:
       return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpym_48w4t/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpym_48w4t/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsdc8e2lc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsdc8e2lc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcks17jv8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzl77aazm
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcks17jv8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcks17jv8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,relro` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzl77aazm/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzl77aazm/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,relro` -> 0
 Compiler for C supports link arguments -Wl,-z,relro: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpawb4x08w
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxzk6b9md
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpawb4x08w/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpawb4x08w/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,now` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxzk6b9md/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxzk6b9md/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,now` -> 0
 Compiler for C supports link arguments -Wl,-z,now: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_srd8658
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv6dch0e_
 Code:
 extern struct { void (*cb)(void); } s; void f(void) { s.cb(); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_srd8658/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_srd8658/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -O2 -fzero-call-used-regs=used-gpr` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv6dch0e_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv6dch0e_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -O2 -fzero-call-used-regs=used-gpr` -> 0
 Checking if "-fzero-call-used-regs=used-gpr" compiles: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyuscms33
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptv9efbg2
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyuscms33/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyuscms33/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -ftrivial-auto-var-init=zero` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptv9efbg2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptv9efbg2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -ftrivial-auto-var-init=zero` -> 0
 Compiler for C supports arguments -ftrivial-auto-var-init=zero: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfu8btgw2
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpafd1b2qj
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfu8btgw2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfu8btgw2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fzero-call-used-regs=used-gpr` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpafd1b2qj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpafd1b2qj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fzero-call-used-regs=used-gpr` -> 0
 Compiler for C supports arguments -fzero-call-used-regs=used-gpr: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq9s7ud8g
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpot7a04el
 Code:
 
     struct __attribute__((capability("mutex"))) mutex {};
@@ -217,301 +217,301 @@ Code:
     }
   
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq9s7ud8g/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq9s7ud8g/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wthread-safety -Werror` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpot7a04el/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpot7a04el/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wthread-safety -Werror` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Wthread-safety'
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9nr3gds4
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrfz97yh
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9nr3gds4/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9nr3gds4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrfz97yh/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrfz97yh/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body` -> 0
 Compiler for C supports arguments -Wempty-body: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaspaq9e1
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpu28hnl8f
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaspaq9e1/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaspaq9e1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpu28hnl8f/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpu28hnl8f/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels` -> 0
 Compiler for C supports arguments -Wendif-labels: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpixjyw0h3
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxms6ka6l
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpixjyw0h3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpixjyw0h3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wexpansion-to-defined` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxms6ka6l/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxms6ka6l/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wexpansion-to-defined` -> 0
 Compiler for C supports arguments -Wexpansion-to-defined: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppl_e_ds3
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpauar47qb
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppl_e_ds3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppl_e_ds3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpauar47qb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpauar47qb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security` -> 0
 Compiler for C supports arguments -Wformat-security: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprdks15xa
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_zd1uzyn
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprdks15xa/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprdks15xa/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-y2k` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_zd1uzyn/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_zd1uzyn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-y2k` -> 0
 Compiler for C supports arguments -Wformat-y2k: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwc_rwzfx
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq283abnb
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwc_rwzfx/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwc_rwzfx/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-qualifiers` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq283abnb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq283abnb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-qualifiers` -> 0
 Compiler for C supports arguments -Wignored-qualifiers: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_kiliclv
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1a40mz_6
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_kiliclv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_kiliclv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough=2` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1a40mz_6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1a40mz_6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough=2` -> 0
 Compiler for C supports arguments -Wimplicit-fallthrough=2: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_d8zxrmu
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprym_jjhc
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_d8zxrmu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_d8zxrmu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprym_jjhc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprym_jjhc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self` -> 0
 Compiler for C supports arguments -Winit-self: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpivtrrmgp
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1g1jnck3
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpivtrrmgp/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpivtrrmgp/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-format-attribute` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1g1jnck3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1g1jnck3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-format-attribute` -> 0
 Compiler for C supports arguments -Wmissing-format-attribute: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplw8qreom
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprs68kpx9
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplw8qreom/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplw8qreom/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprs68kpx9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprs68kpx9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes` -> 0
 Compiler for C supports arguments -Wmissing-prototypes: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbb_b32va
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm3h055oc
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbb_b32va/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbb_b32va/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm3h055oc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm3h055oc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs` -> 0
 Compiler for C supports arguments -Wnested-externs: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps2t3kpyo
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjlxxidpb
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps2t3kpyo/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps2t3kpyo/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-declaration` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjlxxidpb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjlxxidpb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-declaration` -> 0
 Compiler for C supports arguments -Wold-style-declaration: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyb058w9b
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpic3te63r
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyb058w9b/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyb058w9b/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpic3te63r/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpic3te63r/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition` -> 0
 Compiler for C supports arguments -Wold-style-definition: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2g126anu
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq7nmew4k
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2g126anu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2g126anu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq7nmew4k/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq7nmew4k/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls` -> 0
 Compiler for C supports arguments -Wredundant-decls: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwbjnut1g
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf_yvcntj
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwbjnut1g/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwbjnut1g/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow=local` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf_yvcntj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf_yvcntj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow=local` -> 0
 Compiler for C supports arguments -Wshadow=local: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqch_pcv6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0ui5t524
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqch_pcv6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqch_pcv6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0ui5t524/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0ui5t524/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes` -> 0
 Compiler for C supports arguments -Wstrict-prototypes: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpli024cp1
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps1qhcdgf
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpli024cp1/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpli024cp1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps1qhcdgf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps1qhcdgf/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits` -> 0
 Compiler for C supports arguments -Wtype-limits: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcsvqv0ej
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2fltkqy8
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcsvqv0ej/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcsvqv0ej/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2fltkqy8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2fltkqy8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef` -> 0
 Compiler for C supports arguments -Wundef: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnv5c1s44
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrdrqzb6
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnv5c1s44/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnv5c1s44/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wvla` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrdrqzb6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrdrqzb6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wvla` -> 0
 Compiler for C supports arguments -Wvla: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4364_td_
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3u2loy5w
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4364_td_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4364_td_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3u2loy5w/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3u2loy5w/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings` -> 0
 Compiler for C supports arguments -Wwrite-strings: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp50npfp7k
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsccwg43c
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp50npfp7k/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp50npfp7k/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wgnu-variable-sized-type-not-at-end -Wno-gnu-variable-sized-type-not-at-end` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsccwg43c/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsccwg43c/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wgnu-variable-sized-type-not-at-end -Wno-gnu-variable-sized-type-not-at-end` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Wgnu-variable-sized-type-not-at-end'
 -----------
 Compiler for C supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9lairyt6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzl2gayq1
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9lairyt6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9lairyt6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winitializer-overrides -Wno-initializer-overrides` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzl2gayq1/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzl2gayq1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winitializer-overrides -Wno-initializer-overrides` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Winitializer-overrides'
 -----------
 Compiler for C supports arguments -Wno-initializer-overrides: NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8_mrdfzc
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfbwfrp83
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8_mrdfzc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8_mrdfzc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs -Wno-missing-include-dirs` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfbwfrp83/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfbwfrp83/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs -Wno-missing-include-dirs` -> 0
 Compiler for C supports arguments -Wno-missing-include-dirs: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppnkkbi0i
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4tp2g_27
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppnkkbi0i/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppnkkbi0i/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpsabi -Wno-psabi` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4tp2g_27/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4tp2g_27/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpsabi -Wno-psabi` -> 0
 Compiler for C supports arguments -Wno-psabi: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpt7ictxwv
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8kjtrm9e
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpt7ictxwv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpt7ictxwv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshift-negative-value -Wno-shift-negative-value` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8kjtrm9e/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8kjtrm9e/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshift-negative-value -Wno-shift-negative-value` -> 0
 Compiler for C supports arguments -Wno-shift-negative-value: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzdm2dakc
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpea1y625j
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzdm2dakc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzdm2dakc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstring-plus-int -Wno-string-plus-int` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpea1y625j/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpea1y625j/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstring-plus-int -Wno-string-plus-int` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Wstring-plus-int'
 -----------
 Compiler for C supports arguments -Wno-string-plus-int: NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptnelar89
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp63ba8_z9
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptnelar89/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptnelar89/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtautological-type-limit-compare -Wno-tautological-type-limit-compare` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp63ba8_z9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp63ba8_z9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtautological-type-limit-compare -Wno-tautological-type-limit-compare` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Wtautological-type-limit-compare'; did you mean '-Wtautological-compare'?
 -----------
 Compiler for C supports arguments -Wno-tautological-type-limit-compare: NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6tuws3fk
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpys9w7875
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6tuws3fk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6tuws3fk/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtypedef-redefinition -Wno-typedef-redefinition` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpys9w7875/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpys9w7875/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtypedef-redefinition -Wno-typedef-redefinition` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Wtypedef-redefinition'
 -----------
 Compiler for C supports arguments -Wno-typedef-redefinition: NO 
 Program cgcc found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9jbyr_d8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5co2lfr6
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9jbyr_d8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9jbyr_d8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5co2lfr6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5co2lfr6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
 Library m found: YES
 Run-time dependency threads found: YES
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpoaw4061i
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpil_r_yyf
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpoaw4061i/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpoaw4061i/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lutil -Wl,--allow-shlib-undefined` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpil_r_yyf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpil_r_yyf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lutil -Wl,--allow-shlib-undefined` -> 0
 Library util found: YES
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp55s45p3e
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp241n2k47
 Code:
 int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp55s45p3e/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp55s45p3e/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework Hypervisor` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp241n2k47/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp241n2k47/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework Hypervisor` -> 1
 stderr:
 cc: error: unrecognized command-line option '-framework'
 -----------
@@ -531,18 +531,18 @@ Package 'xencontrol', required by 'virtual:world', not found
 -----------
 Run-time dependency xencontrol found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa_u07jz9
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpb6vrh967
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa_u07jz9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa_u07jz9/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenstore -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpb6vrh967/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpb6vrh967/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenstore -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxenstore: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp80t42jj2
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvqbz0wmc
 Code:
 
         #include<stddef.h>
@@ -552,7 +552,7 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp80t42jj2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp80t42jj2/output.exe -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvqbz0wmc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvqbz0wmc/output.exe -D_FILE_OFFSET_BITS=64 -O0` -> 0
 Program stdout:
 
 8
@@ -561,11 +561,11 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpukus00_c
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5jk1hsxe
 Code:
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpukus00_c/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpukus00_c/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5jk1hsxe/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5jk1hsxe/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
 stdout:
 install: /usr/lib/gcc/x86_64-linux-gnu/13/
 programs: =/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/
@@ -573,82 +573,82 @@ libraries: =/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/.
 -----------
 Library xenstore found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsikhm0_g
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpy2ad02r8
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsikhm0_g/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsikhm0_g/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenctrl -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpy2ad02r8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpy2ad02r8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenctrl -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxenctrl: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library xenctrl found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0_002gd7
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzvq6lklt
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0_002gd7/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0_002gd7/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxendevicemodel -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzvq6lklt/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzvq6lklt/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxendevicemodel -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxendevicemodel: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library xendevicemodel found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7aaeiciu
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsurj8ae9
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7aaeiciu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7aaeiciu/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenforeignmemory -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsurj8ae9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsurj8ae9/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenforeignmemory -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxenforeignmemory: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library xenforeignmemory found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa397nq8s
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbi5su2bi
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa397nq8s/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa397nq8s/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxengnttab -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbi5su2bi/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbi5su2bi/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxengnttab -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxengnttab: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library xengnttab found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1nk8clg6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppqhkbezk
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1nk8clg6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1nk8clg6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenevtchn -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppqhkbezk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppqhkbezk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxenevtchn -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxenevtchn: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library xenevtchn found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn8mipp76
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2cm7u77q
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn8mipp76/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn8mipp76/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxentoolcore -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2cm7u77q/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2cm7u77q/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lxentoolcore -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lxentoolcore: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library xentoolcore found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqba5fdk6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp17a4_he2
 Source file: /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqba5fdk6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=41100` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp17a4_he2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=41100` -> 1
 stderr:
 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c:7:12: fatal error: xendevicemodel.h: No such file or directory
     7 |   #include <xendevicemodel.h>
@@ -656,10 +656,10 @@ stderr:
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6l31bt78
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpra0jo6jp
 Source file: /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6l31bt78/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=41000` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpra0jo6jp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=41000` -> 1
 stderr:
 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c:24:12: fatal error: xenforeignmemory.h: No such file or directory
    24 |   #include <xenforeignmemory.h>
@@ -667,10 +667,10 @@ stderr:
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps96fl0vc
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvtwn8_7i
 Source file: /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps96fl0vc/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=40900` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvtwn8_7i/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=40900` -> 1
 stderr:
 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c:39:12: fatal error: xendevicemodel.h: No such file or directory
    39 |   #include <xendevicemodel.h>
@@ -678,10 +678,10 @@ stderr:
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphx3_y87w
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8mrk7jte
 Source file: /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphx3_y87w/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=40800` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8mrk7jte/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=40800` -> 1
 stderr:
 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c:60:12: fatal error: xenctrl.h: No such file or directory
    60 |   #include <xenctrl.h>
@@ -689,10 +689,10 @@ stderr:
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa24lojui
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdauz5kgg
 Source file: /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa24lojui/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=40701` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdauz5kgg/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DCONFIG_XEN_CTRL_INTERFACE_VERSION=40701` -> 1
 stderr:
 /media/andrea/Acer/group7-TPM/qemu/scripts/xen-detect.c:105:12: fatal error: xenctrl.h: No such file or directory
   105 |   #include <xenctrl.h>
@@ -762,7 +762,7 @@ stdout:
 -----------
 Run-time dependency gmodule-no-export-2.0 found: YES 2.80.0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpouk1vye4
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc1164u0w
 Code:
 
   #include <glib.h>
@@ -776,7 +776,7 @@ Code:
      return 0;
   }
 -----------
-Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpouk1vye4/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpouk1vye4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc1164u0w/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc1164u0w/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
 env[PKG_CONFIG]: /usr/bin/pkg-config
@@ -809,7 +809,7 @@ stdout:
 -----------
 Run-time dependency gio-2.0 found: YES 2.80.0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplq60ywme
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg32_k88a
 Code:
 
     #include <gio/gio.h>
@@ -819,7 +819,7 @@ Code:
       return 0;
     }
 -----------
-Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplq60ywme/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplq60ywme/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libgio-2.0.so /usr/lib/x86_64-linux-gnu/libgobject-2.0.so /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 0
+Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg32_k88a/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg32_k88a/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libgio-2.0.so /usr/lib/x86_64-linux-gnu/libgobject-2.0.so /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 0
 Program gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
 Determining dependency 'gio-unix-2.0' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
@@ -913,7 +913,7 @@ stdout:
 -----------
 Run-time dependency zlib found: YES 1.3
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpln48ijqq
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgaflj6fx
 Code:
 
         #ifdef __has_include
@@ -924,9 +924,9 @@ Code:
          #include <libaio.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpln48ijqq/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgaflj6fx/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpln48ijqq/testfile.c:4:12: error: #error "Header 'libaio.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgaflj6fx/testfile.c:4:12: error: #error "Header 'libaio.h' could not be found"
     4 |           #error "Header 'libaio.h' could not be found"
       |            ^~~~~
 -----------
@@ -944,7 +944,7 @@ Package 'liburing', required by 'virtual:world', not found
 -----------
 Run-time dependency liburing found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi58iqnb8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn0rd4glm
 Code:
 
   #include <liburing.h>
@@ -952,9 +952,9 @@ Code:
 
   int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi58iqnb8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi58iqnb8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn0rd4glm/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn0rd4glm/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi58iqnb8/testfile.c:2:12: fatal error: liburing.h: No such file or directory
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn0rd4glm/testfile.c:2:12: fatal error: liburing.h: No such file or directory
     2 |   #include <liburing.h>
       |            ^~~~~~~~~~~~
 compilation terminated.
@@ -972,7 +972,7 @@ Package 'libnfs', required by 'virtual:world', not found
 -----------
 Run-time dependency libnfs found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67s4f_x8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbex5e14h
 Code:
 
   #include <stddef.h>
@@ -984,41 +984,41 @@ Code:
   #endif
   int main(void) { getxattr(NULL, NULL, NULL, 0); setxattr(NULL, NULL, NULL, 0, 0); return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67s4f_x8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67s4f_x8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbex5e14h/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbex5e14h/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkja_5kon
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzqglw222
 Code:
 int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkja_5kon/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkja_5kon/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework Cocoa` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzqglw222/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzqglw222/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework Cocoa` -> 1
 stderr:
 cc: error: unrecognized command-line option '-framework'
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpadj2hdzx
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpscgbg0ql
 Code:
 int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpadj2hdzx/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpadj2hdzx/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework CoreVideo` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpscgbg0ql/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpscgbg0ql/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework CoreVideo` -> 1
 stderr:
 cc: error: unrecognized command-line option '-framework'
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3w48s96f
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvzuql5ig
 Code:
 int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3w48s96f/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3w48s96f/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework QuartzCore` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvzuql5ig/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvzuql5ig/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework QuartzCore` -> 1
 stderr:
 cc: error: unrecognized command-line option '-framework'
 -----------
 Run-time dependency appleframeworks found: NO (tried framework)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg2m8dg7y
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvyejubms
 Code:
 int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg2m8dg7y/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg2m8dg7y/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework vmnet` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvyejubms/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvyejubms/output.exe -D_FILE_OFFSET_BITS=64 -O0 -framework vmnet` -> 1
 stderr:
 cc: error: unrecognized command-line option '-framework'
 -----------
@@ -1036,7 +1036,7 @@ Package 'libseccomp', required by 'virtual:world', not found
 -----------
 Run-time dependency libseccomp found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps_33lfiu
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsnsnbq56
 Code:
 
         #ifdef __has_include
@@ -1047,9 +1047,9 @@ Code:
          #include <cap-ng.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps_33lfiu/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsnsnbq56/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps_33lfiu/testfile.c:4:12: error: #error "Header 'cap-ng.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsnsnbq56/testfile.c:4:12: error: #error "Header 'cap-ng.h' could not be found"
     4 |           #error "Header 'cap-ng.h' could not be found"
       |            ^~~~~
 -----------
@@ -1079,7 +1079,7 @@ Package 'slirp', required by 'virtual:world', not found
 -----------
 Run-time dependency slirp found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm1orf2a3
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0aufulpy
 Code:
 
         #ifdef __has_include
@@ -1090,9 +1090,9 @@ Code:
          #include <libvdeplug.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm1orf2a3/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0aufulpy/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm1orf2a3/testfile.c:4:12: error: #error "Header 'libvdeplug.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0aufulpy/testfile.c:4:12: error: #error "Header 'libvdeplug.h' could not be found"
     4 |           #error "Header 'libvdeplug.h' could not be found"
       |            ^~~~~
 -----------
@@ -1182,12 +1182,12 @@ Package 'spice-server', required by 'virtual:world', not found
 -----------
 Run-time dependency spice-server found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj2pco9xw
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpy7410lbe
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj2pco9xw/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj2pco9xw/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lrt -Wl,--allow-shlib-undefined` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpy7410lbe/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpy7410lbe/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lrt -Wl,--allow-shlib-undefined` -> 0
 Library rt found: YES
 Determining dependency 'libiscsi' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
@@ -1322,12 +1322,12 @@ Package 'libudev', required by 'virtual:world', not found
 -----------
 Run-time dependency libudev found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpl7t6nus6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnlbid2o3
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpl7t6nus6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpl7t6nus6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lmpathpersist -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnlbid2o3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnlbid2o3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lmpathpersist -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lmpathpersist: No such file or directory
 collect2: error: ld returned 1 exit status
@@ -1346,7 +1346,7 @@ Package 'ncursesw', required by 'virtual:world', not found
 -----------
 Run-time dependency ncursesw found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppglh4iiw
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn78y0ibg
 Code:
 
         #ifdef __has_include
@@ -1357,16 +1357,16 @@ Code:
          #include <curses.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppglh4iiw/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 -DNCURSES_WIDECHAR=1` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn78y0ibg/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 -DNCURSES_WIDECHAR=1` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppglh4iiw/testfile.c:4:12: error: #error "Header 'curses.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn78y0ibg/testfile.c:4:12: error: #error "Header 'curses.h' could not be found"
     4 |           #error "Header 'curses.h' could not be found"
       |            ^~~~~
 -----------
 Has header "curses.h" : NO 
 Message: Trying with /usr/include/ncursesw
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgbmjd5ft
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwlcwfcyo
 Code:
 
         #ifdef __has_include
@@ -1377,15 +1377,15 @@ Code:
          #include <curses.h>
         #endif
 -----------
-Command line: `cc -m64 -I/usr/include/ncursesw /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgbmjd5ft/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 -DNCURSES_WIDECHAR=1` -> 1
+Command line: `cc -m64 -I/usr/include/ncursesw /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwlcwfcyo/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 -DNCURSES_WIDECHAR=1` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgbmjd5ft/testfile.c:4:12: error: #error "Header 'curses.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwlcwfcyo/testfile.c:4:12: error: #error "Header 'curses.h' could not be found"
     4 |           #error "Header 'curses.h' could not be found"
       |            ^~~~~
 -----------
 Has header "curses.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8i7333jo
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw_geh1yd
 Code:
 
         #include <iconv.h>
@@ -1394,13 +1394,13 @@ Code:
           return conv != (iconv_t) -1;
         }
 -----------
-Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8i7333jo/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8i7333jo/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -liconv /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 1
+Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw_geh1yd/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw_geh1yd/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -liconv /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 1
 stderr:
 /usr/bin/ld: cannot find -liconv: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprf1rchoh
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5bdn1scw
 Code:
 
         #include <iconv.h>
@@ -1409,9 +1409,9 @@ Code:
           return conv != (iconv_t) -1;
         }
 -----------
-Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprf1rchoh/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprf1rchoh/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 0
+Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5bdn1scw/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5bdn1scw/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptngwxdqr
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_aes8cwe
 Code:
 
         #ifdef __has_include
@@ -1422,9 +1422,9 @@ Code:
          #include <brlapi.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptngwxdqr/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_aes8cwe/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptngwxdqr/testfile.c:4:12: error: #error "Header 'brlapi.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_aes8cwe/testfile.c:4:12: error: #error "Header 'brlapi.h' could not be found"
     4 |           #error "Header 'brlapi.h' could not be found"
       |            ^~~~~
 -----------
@@ -1451,19 +1451,19 @@ Found CMake: NO
 CMake binary for machine host machine not found. Giving up.
 Run-time dependency sdl2 found: NO (tried pkgconfig, config-tool and cmake)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprmm12abp
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpteiycuiv
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprmm12abp/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprmm12abp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lrados -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpteiycuiv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpteiycuiv/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lrados -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -lrados: No such file or directory
 collect2: error: ld returned 1 exit status
 -----------
 Library rados found: NO
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpblwmw22g
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgacz5aua
 Code:
 
         #ifdef __has_include
@@ -1474,9 +1474,9 @@ Code:
          #include <rbd/librbd.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpblwmw22g/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgacz5aua/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpblwmw22g/testfile.c:4:12: error: #error "Header 'rbd/librbd.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgacz5aua/testfile.c:4:12: error: #error "Header 'rbd/librbd.h' could not be found"
     4 |           #error "Header 'rbd/librbd.h' could not be found"
       |            ^~~~~
 -----------
@@ -1494,7 +1494,7 @@ Package 'glusterfs-api', required by 'virtual:world', not found
 -----------
 Run-time dependency glusterfs-api found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jex_zdd
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpos4b13gc
 Code:
 
     #include <string.h>
@@ -1509,7 +1509,7 @@ Code:
     }
   
 -----------
-Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jex_zdd/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jex_zdd/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 0
+Command line: `cc -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpos4b13gc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpos4b13gc/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libglib-2.0.so /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so -Wl,--end-group` -> 0
 Determining dependency 'libssh' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
 env[PKG_CONFIG]: /usr/bin/pkg-config
@@ -1523,7 +1523,7 @@ Package 'libssh', required by 'virtual:world', not found
 -----------
 Run-time dependency libssh found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpizel8iyp
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpksvmwoy0
 Code:
 
         #ifdef __has_include
@@ -1534,15 +1534,15 @@ Code:
          #include <bzlib.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpizel8iyp/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpksvmwoy0/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpizel8iyp/testfile.c:4:12: error: #error "Header 'bzlib.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpksvmwoy0/testfile.c:4:12: error: #error "Header 'bzlib.h' could not be found"
     4 |           #error "Header 'bzlib.h' could not be found"
       |            ^~~~~
 -----------
 Has header "bzlib.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdcwxa5hz
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuz5kor5t
 Code:
 
         #ifdef __has_include
@@ -1553,15 +1553,15 @@ Code:
          #include <lzfse.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdcwxa5hz/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuz5kor5t/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdcwxa5hz/testfile.c:4:12: error: #error "Header 'lzfse.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuz5kor5t/testfile.c:4:12: error: #error "Header 'lzfse.h' could not be found"
     4 |           #error "Header 'lzfse.h' could not be found"
       |            ^~~~~
 -----------
 Has header "lzfse.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7u4erli1
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphmewtu2g
 Code:
 
         #ifdef __has_include
@@ -1572,7 +1572,7 @@ Code:
          #include <sys/soundcard.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7u4erli1/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphmewtu2g/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "sys/soundcard.h" : YES 
 Determining dependency 'epoxy' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
@@ -1587,7 +1587,7 @@ Package 'epoxy', required by 'virtual:world', not found
 -----------
 Run-time dependency epoxy found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpiplx4_hk
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdc8arhu
 Code:
 
         #ifdef __has_include
@@ -1598,9 +1598,9 @@ Code:
          #include <epoxy/egl.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpiplx4_hk/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdc8arhu/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpiplx4_hk/testfile.c:4:12: error: #error "Header 'epoxy/egl.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdc8arhu/testfile.c:4:12: error: #error "Header 'epoxy/egl.h' could not be found"
     4 |           #error "Header 'epoxy/egl.h' could not be found"
       |            ^~~~~
 -----------
@@ -1748,7 +1748,7 @@ Package 'libjpeg', required by 'virtual:world', not found
 -----------
 Run-time dependency libjpeg found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzoxlqcf5
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphjo06uo1
 Code:
 
         #ifdef __has_include
@@ -1759,15 +1759,15 @@ Code:
          #include <sasl/sasl.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzoxlqcf5/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphjo06uo1/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzoxlqcf5/testfile.c:4:12: error: #error "Header 'sasl/sasl.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphjo06uo1/testfile.c:4:12: error: #error "Header 'sasl/sasl.h' could not be found"
     4 |           #error "Header 'sasl/sasl.h' could not be found"
       |            ^~~~~
 -----------
 Has header "sasl/sasl.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv6s5sld0
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw9swm4g
 Code:
 
         #ifdef __has_include
@@ -1778,15 +1778,15 @@ Code:
          #include <security/pam_appl.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv6s5sld0/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw9swm4g/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv6s5sld0/testfile.c:4:12: error: #error "Header 'security/pam_appl.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw9swm4g/testfile.c:4:12: error: #error "Header 'security/pam_appl.h' could not be found"
     4 |           #error "Header 'security/pam_appl.h' could not be found"
       |            ^~~~~
 -----------
 Has header "security/pam_appl.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcw227_c5
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4u8xo2ey
 Code:
 
         #ifdef __has_include
@@ -1797,15 +1797,15 @@ Code:
          #include <snappy-c.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcw227_c5/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4u8xo2ey/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcw227_c5/testfile.c:4:12: error: #error "Header 'snappy-c.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4u8xo2ey/testfile.c:4:12: error: #error "Header 'snappy-c.h' could not be found"
     4 |           #error "Header 'snappy-c.h' could not be found"
       |            ^~~~~
 -----------
 Has header "snappy-c.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsi8sglt4
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkktcfpaf
 Code:
 
         #ifdef __has_include
@@ -1816,15 +1816,15 @@ Code:
          #include <lzo/lzo1x.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsi8sglt4/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkktcfpaf/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsi8sglt4/testfile.c:4:12: error: #error "Header 'lzo/lzo1x.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkktcfpaf/testfile.c:4:12: error: #error "Header 'lzo/lzo1x.h' could not be found"
     4 |           #error "Header 'lzo/lzo1x.h' could not be found"
       |            ^~~~~
 -----------
 Has header "lzo/lzo1x.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps_u8qu7k
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpank69q4o
 Code:
 
         #ifdef __has_include
@@ -1835,32 +1835,32 @@ Code:
          #include <numa.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps_u8qu7k/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpank69q4o/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps_u8qu7k/testfile.c:4:12: error: #error "Header 'numa.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpank69q4o/testfile.c:4:12: error: #error "Header 'numa.h' could not be found"
     4 |           #error "Header 'numa.h' could not be found"
       |            ^~~~~
 -----------
 Has header "numa.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpblb5a669
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphks8ziw3
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpblb5a669/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpblb5a669/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lfdt -Wl,--allow-shlib-undefined` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphks8ziw3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphks8ziw3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lfdt -Wl,--allow-shlib-undefined` -> 0
 Library fdt found: YES
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi4qoygsj
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjne5u7rq
 Code:
 
      #include <libfdt.h>
      #include <libfdt_env.h>
      int main(void) { fdt_find_max_phandle(NULL, NULL); return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi4qoygsj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpi4qoygsj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -lfdt` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjne5u7rq/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjne5u7rq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -lfdt` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8ts7vfej
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyunpk7y3
 Code:
 
         #ifdef __has_include
@@ -1871,20 +1871,20 @@ Code:
          #include <rdma/rdma_cma.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8ts7vfej/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyunpk7y3/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8ts7vfej/testfile.c:4:12: error: #error "Header 'rdma/rdma_cma.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyunpk7y3/testfile.c:4:12: error: #error "Header 'rdma/rdma_cma.h' could not be found"
     4 |           #error "Header 'rdma/rdma_cma.h' could not be found"
       |            ^~~~~
 -----------
 Has header "rdma/rdma_cma.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuxbz8adb
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppeifo9q5
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuxbz8adb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuxbz8adb/output.exe -D_FILE_OFFSET_BITS=64 -O0 -libverbs -Wl,--allow-shlib-undefined` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppeifo9q5/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppeifo9q5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -libverbs -Wl,--allow-shlib-undefined` -> 1
 stderr:
 /usr/bin/ld: cannot find -libverbs: No such file or directory
 collect2: error: ld returned 1 exit status
@@ -1987,7 +1987,7 @@ Package 'libkeyutils', required by 'virtual:world', not found
 -----------
 Run-time dependency libkeyutils found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxacgd3vb
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpywa5qi83
 Code:
 
         #define gettid meson_disable_define_of_gettid
@@ -2008,7 +2008,7 @@ Code:
           return gettid ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxacgd3vb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxacgd3vb/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpywa5qi83/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpywa5qi83/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "gettid" : YES 
 Determining dependency 'libselinux' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
@@ -2039,7 +2039,7 @@ stdout:
 -----------
 Run-time dependency libselinux found: YES 3.5
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbn0xfixn
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps33cwcs3
 Code:
 #include <malloc.h>
 #include <limits.h>
@@ -2054,10 +2054,10 @@ int main(void) {
             return (int) b;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbn0xfixn/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbn0xfixn/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps33cwcs3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps33cwcs3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "malloc_trim" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk3yj2g7c
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjik8rq18
 Code:
 
   #ifndef _GNU_SOURCE
@@ -2073,10 +2073,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk3yj2g7c/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk3yj2g7c/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjik8rq18/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjik8rq18/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/stat.h" has symbol "STATX_BASIC_STATS" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp404nkmom
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpivkaauv6
 Code:
 
   #ifndef _GNU_SOURCE
@@ -2092,7 +2092,7 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp404nkmom/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp404nkmom/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpivkaauv6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpivkaauv6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/stat.h" has symbol "STATX_MNT_ID" : YES 
 Determining dependency 'fuse3' with pkg-config executable '/usr/bin/pkg-config'
 env[PKG_CONFIG_PATH]: 
@@ -2131,7 +2131,7 @@ Package 'libdw', required by 'virtual:world', not found
 -----------
 Run-time dependency libdw found: NO (tried pkgconfig)
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprtec5oo6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0k3efbsm
 Code:
 
         #include <linux/fs.h>
@@ -2143,10 +2143,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprtec5oo6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprtec5oo6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0k3efbsm/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0k3efbsm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/fs.h" has symbol "FIFREEZE" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjk2qda7x
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9zxpsbor
 Code:
 
         #include <linux/fs.h>
@@ -2158,10 +2158,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjk2qda7x/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjk2qda7x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9zxpsbor/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9zxpsbor/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/fs.h" has symbol "FITRIM" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5zwsrt_j
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8nachoxk
 Code:
 
         #ifdef __has_include
@@ -2172,10 +2172,10 @@ Code:
          #include <sys/epoll.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5zwsrt_j/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8nachoxk/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "sys/epoll.h" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz_k4g37u
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmqiw57qd
 Code:
 
         #ifdef __has_include
@@ -2186,10 +2186,10 @@ Code:
          #include <linux/magic.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz_k4g37u/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmqiw57qd/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "linux/magic.h" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptj3mdt0j
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp66mu_yfe
 Code:
 
         #ifdef __has_include
@@ -2200,15 +2200,15 @@ Code:
          #include <valgrind/valgrind.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptj3mdt0j/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp66mu_yfe/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptj3mdt0j/testfile.c:4:12: error: #error "Header 'valgrind/valgrind.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp66mu_yfe/testfile.c:4:12: error: #error "Header 'valgrind/valgrind.h' could not be found"
     4 |           #error "Header 'valgrind/valgrind.h' could not be found"
       |            ^~~~~
 -----------
 Has header "valgrind/valgrind.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn9oqvhq7
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp394zktyw
 Code:
 
         #ifdef __has_include
@@ -2219,10 +2219,10 @@ Code:
          #include <linux/btrfs.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn9oqvhq7/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp394zktyw/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "linux/btrfs.h" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5hrzlwmh
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5qqpfkzd
 Code:
 
         #ifdef __has_include
@@ -2233,15 +2233,15 @@ Code:
          #include <libdrm/drm.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5hrzlwmh/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5qqpfkzd/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5hrzlwmh/testfile.c:4:12: error: #error "Header 'libdrm/drm.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5qqpfkzd/testfile.c:4:12: error: #error "Header 'libdrm/drm.h' could not be found"
     4 |           #error "Header 'libdrm/drm.h' could not be found"
       |            ^~~~~
 -----------
 Has header "libdrm/drm.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfx3ct88x
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpo4eaft9l
 Code:
 
         #ifdef __has_include
@@ -2252,10 +2252,10 @@ Code:
          #include <linux/openat2.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfx3ct88x/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpo4eaft9l/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "linux/openat2.h" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf7e4vjdu
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpl7d29t2x
 Code:
 
         #ifdef __has_include
@@ -2266,10 +2266,10 @@ Code:
          #include <pty.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf7e4vjdu/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpl7d29t2x/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "pty.h" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqu0sigtz
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpiy8xtcfq
 Code:
 
         #ifdef __has_include
@@ -2280,15 +2280,15 @@ Code:
          #include <sys/disk.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqu0sigtz/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpiy8xtcfq/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqu0sigtz/testfile.c:4:12: error: #error "Header 'sys/disk.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpiy8xtcfq/testfile.c:4:12: error: #error "Header 'sys/disk.h' could not be found"
     4 |           #error "Header 'sys/disk.h' could not be found"
       |            ^~~~~
 -----------
 Has header "sys/disk.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0xiaxr_e
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxyb6xwzq
 Code:
 
         #ifdef __has_include
@@ -2299,15 +2299,15 @@ Code:
          #include <sys/ioccom.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0xiaxr_e/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxyb6xwzq/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0xiaxr_e/testfile.c:4:12: error: #error "Header 'sys/ioccom.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxyb6xwzq/testfile.c:4:12: error: #error "Header 'sys/ioccom.h' could not be found"
     4 |           #error "Header 'sys/ioccom.h' could not be found"
       |            ^~~~~
 -----------
 Has header "sys/ioccom.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph42tsyki
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp74yelvs8
 Code:
 
         #ifdef __has_include
@@ -2318,15 +2318,15 @@ Code:
          #include <sys/kcov.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph42tsyki/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp74yelvs8/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph42tsyki/testfile.c:4:12: error: #error "Header 'sys/kcov.h' could not be found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp74yelvs8/testfile.c:4:12: error: #error "Header 'sys/kcov.h' could not be found"
     4 |           #error "Header 'sys/kcov.h' could not be found"
       |            ^~~~~
 -----------
 Has header "sys/kcov.h" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7fw10cx4
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8b7cnmy
 Code:
 
         #define close_range meson_disable_define_of_close_range
@@ -2347,10 +2347,10 @@ Code:
           return close_range ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7fw10cx4/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7fw10cx4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8b7cnmy/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8b7cnmy/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "close_range" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0euwg41_
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckvlhq_h
 Code:
 
         #define accept4 meson_disable_define_of_accept4
@@ -2371,10 +2371,10 @@ Code:
           return accept4 ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0euwg41_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0euwg41_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckvlhq_h/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckvlhq_h/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "accept4" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpb83f3vpb
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0y55ar_3
 Code:
 
         #define clock_adjtime meson_disable_define_of_clock_adjtime
@@ -2395,10 +2395,10 @@ Code:
           return clock_adjtime ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpb83f3vpb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpb83f3vpb/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0y55ar_3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0y55ar_3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "clock_adjtime" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxs_ttj26
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdah85fjd
 Code:
 
         #define dup3 meson_disable_define_of_dup3
@@ -2419,10 +2419,10 @@ Code:
           return dup3 ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxs_ttj26/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxs_ttj26/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdah85fjd/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdah85fjd/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "dup3" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe9y_blwa
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprg2y1kcu
 Code:
 
         #define fallocate meson_disable_define_of_fallocate
@@ -2443,10 +2443,10 @@ Code:
           return fallocate ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe9y_blwa/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe9y_blwa/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprg2y1kcu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprg2y1kcu/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "fallocate" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkjp76hqp
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw8xdo745
 Code:
 
         #define posix_fallocate meson_disable_define_of_posix_fallocate
@@ -2467,10 +2467,10 @@ Code:
           return posix_fallocate ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkjp76hqp/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkjp76hqp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw8xdo745/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw8xdo745/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "posix_fallocate" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2jp9pt_u
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptrbu27fk
 Code:
 
         #define getcpu meson_disable_define_of_getcpu
@@ -2495,10 +2495,10 @@ Code:
           return getcpu ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2jp9pt_u/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2jp9pt_u/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptrbu27fk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptrbu27fk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "getcpu" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_bth9t5h
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp88djqec4
 Code:
 #include <sched.h>
 #include <limits.h>
@@ -2513,17 +2513,17 @@ int main(void) {
             return (int) b;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_bth9t5h/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_bth9t5h/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp88djqec4/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp88djqec4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_bth9t5h/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_bth9t5h/testfile.c:9:32: error: 'sched_getcpu' undeclared (first use in this function); did you mean 'sched_getparam'?
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp88djqec4/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp88djqec4/testfile.c:9:32: error: 'sched_getcpu' undeclared (first use in this function); did you mean 'sched_getparam'?
     9 |             void *a = (void*) &sched_getcpu;
       |                                ^~~~~~~~~~~~
       |                                sched_getparam
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_bth9t5h/testfile.c:9:32: note: each undeclared identifier is reported only once for each function it appears in
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp88djqec4/testfile.c:9:32: note: each undeclared identifier is reported only once for each function it appears in
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpue_9kcjk
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1si9yjsz
 Code:
 #include <sched.h>
         int main(void) {
@@ -2549,19 +2549,19 @@ Code:
         return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpue_9kcjk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpue_9kcjk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1si9yjsz/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1si9yjsz/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpue_9kcjk/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpue_9kcjk/testfile.c:12:14: error: #error "No definition for __builtin_sched_getcpu found in the prefix"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1si9yjsz/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1si9yjsz/testfile.c:12:14: error: #error "No definition for __builtin_sched_getcpu found in the prefix"
    12 |             #error "No definition for __builtin_sched_getcpu found in the prefix"
       |              ^~~~~
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpue_9kcjk/testfile.c:17:18: error: #error "__builtin_sched_getcpu not found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1si9yjsz/testfile.c:17:18: error: #error "__builtin_sched_getcpu not found"
    17 |                 #error "__builtin_sched_getcpu not found"
       |                  ^~~~~
 -----------
 Checking for function "sched_getcpu" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp59jrvd64
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvebyskwa
 Code:
 #include <stdlib.h>
 #include <limits.h>
@@ -2576,10 +2576,10 @@ int main(void) {
             return (int) b;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp59jrvd64/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp59jrvd64/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvebyskwa/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvebyskwa/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "posix_memalign" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeh6byw35
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph30x_3mi
 Code:
 
         #define _aligned_malloc meson_disable_define_of__aligned_malloc
@@ -2600,14 +2600,14 @@ Code:
           return _aligned_malloc ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeh6byw35/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeh6byw35/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph30x_3mi/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph30x_3mi/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/usr/bin/ld: /tmp/ccm9vPy1.o: in function `main':
+/usr/bin/ld: /tmp/ccJAw0HG.o: in function `main':
 testfile.c:(.text+0x9): undefined reference to `_aligned_malloc'
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjs8vi0q4
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz5yq__c2
 Code:
 
         int main(void) {
@@ -2633,16 +2633,16 @@ Code:
         return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjs8vi0q4/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjs8vi0q4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz5yq__c2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz5yq__c2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjs8vi0q4/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjs8vi0q4/testfile.c:17:18: error: #error "__builtin__aligned_malloc not found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz5yq__c2/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz5yq__c2/testfile.c:17:18: error: #error "__builtin__aligned_malloc not found"
    17 |                 #error "__builtin__aligned_malloc not found"
       |                  ^~~~~
 -----------
 Checking for function "_aligned_malloc" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm5flbiaj
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5qa83ak1
 Code:
 
         #define valloc meson_disable_define_of_valloc
@@ -2663,10 +2663,10 @@ Code:
           return valloc ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm5flbiaj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm5flbiaj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5qa83ak1/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5qa83ak1/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "valloc" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk8sto4k5
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxcv_wfcm
 Code:
 
         #define memalign meson_disable_define_of_memalign
@@ -2687,10 +2687,10 @@ Code:
           return memalign ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk8sto4k5/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk8sto4k5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxcv_wfcm/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxcv_wfcm/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "memalign" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuzh5bma7
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcz2625tq
 Code:
 
         #define ppoll meson_disable_define_of_ppoll
@@ -2711,10 +2711,10 @@ Code:
           return ppoll ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuzh5bma7/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuzh5bma7/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcz2625tq/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcz2625tq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "ppoll" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvikzared
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppmigz1g1
 Code:
 #include <sys/uio.h>
 #include <limits.h>
@@ -2729,10 +2729,10 @@ int main(void) {
             return (int) b;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvikzared/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvikzared/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppmigz1g1/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppmigz1g1/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "preadv" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplmyfp04z
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptoj7q6m5
 Code:
 
         #define pthread_fchdir_np meson_disable_define_of_pthread_fchdir_np
@@ -2753,14 +2753,14 @@ Code:
           return pthread_fchdir_np ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplmyfp04z/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplmyfp04z/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptoj7q6m5/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptoj7q6m5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/usr/bin/ld: /tmp/ccvJGFsZ.o: in function `main':
+/usr/bin/ld: /tmp/cceLV1EJ.o: in function `main':
 testfile.c:(.text+0x9): undefined reference to `pthread_fchdir_np'
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0nxkpm3f
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf2koqafb
 Code:
 
         int main(void) {
@@ -2786,16 +2786,16 @@ Code:
         return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0nxkpm3f/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0nxkpm3f/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf2koqafb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf2koqafb/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0nxkpm3f/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0nxkpm3f/testfile.c:17:18: error: #error "__builtin_pthread_fchdir_np not found"
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf2koqafb/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf2koqafb/testfile.c:17:18: error: #error "__builtin_pthread_fchdir_np not found"
    17 |                 #error "__builtin_pthread_fchdir_np not found"
       |                  ^~~~~
 -----------
 Checking for function "pthread_fchdir_np" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppw5emxw8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeuvu9k33
 Code:
 
         #define sendfile meson_disable_define_of_sendfile
@@ -2816,10 +2816,10 @@ Code:
           return sendfile ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppw5emxw8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppw5emxw8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeuvu9k33/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeuvu9k33/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "sendfile" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqoyem52u
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp65282k2b
 Code:
 
         #define setns meson_disable_define_of_setns
@@ -2840,10 +2840,10 @@ Code:
           return setns ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqoyem52u/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqoyem52u/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp65282k2b/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp65282k2b/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "setns" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwp5nkqi1
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7_lc6sld
 Code:
 
         #define unshare meson_disable_define_of_unshare
@@ -2864,10 +2864,10 @@ Code:
           return unshare ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwp5nkqi1/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwp5nkqi1/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7_lc6sld/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7_lc6sld/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "unshare" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp42_dpfwn
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp12i4_x0f
 Code:
 
         #define syncfs meson_disable_define_of_syncfs
@@ -2888,10 +2888,10 @@ Code:
           return syncfs ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp42_dpfwn/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp42_dpfwn/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp12i4_x0f/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp12i4_x0f/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "syncfs" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn4r1k4q8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxots6fq_
 Code:
 
         #define sync_file_range meson_disable_define_of_sync_file_range
@@ -2912,10 +2912,10 @@ Code:
           return sync_file_range ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn4r1k4q8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn4r1k4q8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxots6fq_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpxots6fq_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "sync_file_range" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpux3zjkji
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp56w73nfg
 Code:
 
         #define timerfd_create meson_disable_define_of_timerfd_create
@@ -2936,10 +2936,10 @@ Code:
           return timerfd_create ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpux3zjkji/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpux3zjkji/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp56w73nfg/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp56w73nfg/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "timerfd_create" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1x8bwf69
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps913n2ud
 Code:
 
         #define getloadavg meson_disable_define_of_getloadavg
@@ -2960,10 +2960,10 @@ Code:
           return getloadavg ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1x8bwf69/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1x8bwf69/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps913n2ud/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps913n2ud/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "getloadavg" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0ngduvb8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfa7pszya
 Code:
 
         #define copy_file_range meson_disable_define_of_copy_file_range
@@ -2984,10 +2984,10 @@ Code:
           return copy_file_range ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0ngduvb8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0ngduvb8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfa7pszya/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfa7pszya/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "copy_file_range" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9xulwrx5
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp48jj_hug
 Code:
 
         #define getifaddrs meson_disable_define_of_getifaddrs
@@ -3008,10 +3008,10 @@ Code:
           return getifaddrs ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9xulwrx5/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9xulwrx5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp48jj_hug/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp48jj_hug/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "getifaddrs" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9fq1zbk8
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv8dzljmb
 Code:
 
         #define openpty meson_disable_define_of_openpty
@@ -3032,10 +3032,10 @@ Code:
           return openpty ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9fq1zbk8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9fq1zbk8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -lutil` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv8dzljmb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpv8dzljmb/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -lutil` -> 0
 Checking for function "openpty" with dependency -lutil: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ij8bjil
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp87dpdsnk
 Code:
 
         #define strchrnul meson_disable_define_of_strchrnul
@@ -3056,10 +3056,10 @@ Code:
           return strchrnul ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ij8bjil/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ij8bjil/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp87dpdsnk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp87dpdsnk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "strchrnul" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplhuctfze
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ynz1lh_
 Code:
 #include <stdlib.h>
 #include <limits.h>
@@ -3074,10 +3074,10 @@ int main(void) {
             return (int) b;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplhuctfze/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplhuctfze/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ynz1lh_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ynz1lh_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "system" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp38k3fe4x
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvj13oh2x
 Code:
 
         #include <sys/inotify.h>
@@ -3089,10 +3089,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp38k3fe4x/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp38k3fe4x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvj13oh2x/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpvj13oh2x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/inotify.h" has symbol "inotify_init" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcq2jypum
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgymx5fwb
 Code:
 
         #include <sys/inotify.h>
@@ -3104,10 +3104,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcq2jypum/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcq2jypum/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgymx5fwb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgymx5fwb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/inotify.h" has symbol "inotify_init1" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9haq71w4
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphz6_8yoh
 Code:
 
         #include <linux/blkzoned.h>
@@ -3119,10 +3119,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9haq71w4/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9haq71w4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphz6_8yoh/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphz6_8yoh/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/blkzoned.h" has symbol "BLKOPENZONE" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjvh20xs9
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0_rm_0ga
 Code:
 
         #include <sys/epoll.h>
@@ -3134,10 +3134,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjvh20xs9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjvh20xs9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0_rm_0ga/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0_rm_0ga/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/epoll.h" has symbol "epoll_create1" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4cw7m03w
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2vp3lql8
 Code:
 
         #include <linux/falloc.h>
@@ -3149,10 +3149,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4cw7m03w/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4cw7m03w/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2vp3lql8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2vp3lql8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/falloc.h" has symbol "FALLOC_FL_PUNCH_HOLE" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg9xfixw6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqo63378_
 Code:
 
         #include <linux/falloc.h>
@@ -3164,10 +3164,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg9xfixw6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpg9xfixw6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqo63378_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqo63378_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/falloc.h" has symbol "FALLOC_FL_KEEP_SIZE" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_1_ffq9b
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0qe23y_8
 Code:
 
         #include <linux/falloc.h>
@@ -3179,10 +3179,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_1_ffq9b/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_1_ffq9b/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0qe23y_8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0qe23y_8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/falloc.h" has symbol "FALLOC_FL_ZERO_RANGE" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdjb4pbtv
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc5e_4btr
 Code:
 
         #ifdef __has_include
@@ -3193,10 +3193,10 @@ Code:
          #include <linux/fiemap.h>
         #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdjb4pbtv/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc5e_4btr/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11` -> 0
 Has header "linux/fiemap.h" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2ytek3if
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptyzycz46
 Code:
 
         #include <linux/fs.h>
@@ -3208,10 +3208,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2ytek3if/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2ytek3if/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptyzycz46/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptyzycz46/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/fs.h" has symbol "FS_IOC_FIEMAP" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk9af8rsj
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0rllkrdq
 Code:
 
         #define getrandom meson_disable_define_of_getrandom
@@ -3232,10 +3232,10 @@ Code:
           return getrandom ();
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk9af8rsj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpk9af8rsj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0rllkrdq/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0rllkrdq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for function "getrandom" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jjqb1m6
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph0i1gac8
 Code:
 
         #include <sys/random.h>
@@ -3247,10 +3247,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jjqb1m6/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jjqb1m6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph0i1gac8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmph0i1gac8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/random.h" has symbol "GRND_NONBLOCK" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2xxavt0j
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpps78o5d0
 Code:
 
         #include <sys/prctl.h>
@@ -3262,10 +3262,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2xxavt0j/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp2xxavt0j/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpps78o5d0/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpps78o5d0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/prctl.h" has symbol "PR_SET_TIMERSLACK" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplbd70n9c
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6vufhpia
 Code:
 
         #include <linux/rtnetlink.h>
@@ -3277,10 +3277,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplbd70n9c/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmplbd70n9c/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6vufhpia/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6vufhpia/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/rtnetlink.h" has symbol "IFLA_PROTO_DOWN" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpihcswmix
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4rejvmkm
 Code:
 
         #include <sys/sysmacros.h>
@@ -3292,10 +3292,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpihcswmix/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpihcswmix/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4rejvmkm/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4rejvmkm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "sys/sysmacros.h" has symbol "makedev" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw_l1cmf
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_r4zy5qh
 Code:
 
         #include <getopt.h>
@@ -3307,17 +3307,17 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw_l1cmf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw_l1cmf/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_r4zy5qh/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_r4zy5qh/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw_l1cmf/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw_l1cmf/testfile.c:6:17: error: 'optreset' undeclared (first use in this function)
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_r4zy5qh/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_r4zy5qh/testfile.c:6:17: error: 'optreset' undeclared (first use in this function)
     6 |                 optreset;
       |                 ^~~~~~~~
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptw_l1cmf/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_r4zy5qh/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
 -----------
 Header "getopt.h" has symbol "optreset" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpehncgvpz
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp99l3mh12
 Code:
 
         #include <netinet/in.h>
@@ -3329,10 +3329,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpehncgvpz/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpehncgvpz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp99l3mh12/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp99l3mh12/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "netinet/in.h" has symbol "IPPROTO_MPTCP" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnpvlh4rj
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbwry6mon
 Code:
 #include <signal.h>
         void bar(void) {
@@ -3341,16 +3341,16 @@ Code:
 
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnpvlh4rj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnpvlh4rj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbwry6mon/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbwry6mon/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnpvlh4rj/testfile.c: In function 'bar':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnpvlh4rj/testfile.c:4:16: error: 'struct sigevent' has no member named 'sigev_notify_thread_id'
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbwry6mon/testfile.c: In function 'bar':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpbwry6mon/testfile.c:4:16: error: 'struct sigevent' has no member named 'sigev_notify_thread_id'
     4 |             foo.sigev_notify_thread_id;
       |                ^
 -----------
 Checking whether type "struct sigevent" has member "sigev_notify_thread_id" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfs_bu_1q
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjvlxggop
 Code:
 #include <sys/stat.h>
         void bar(void) {
@@ -3359,10 +3359,10 @@ Code:
 
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfs_bu_1q/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfs_bu_1q/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjvlxggop/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjvlxggop/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking whether type "struct stat" has member "st_atim" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp48la0h3z
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpopsyo4j_
 Code:
 #include <linux/blkzoned.h>
         void bar(void) {
@@ -3371,38 +3371,38 @@ Code:
 
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp48la0h3z/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp48la0h3z/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpopsyo4j_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpopsyo4j_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking whether type "struct blk_zone" has member "capacity" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdatcqycq
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeboa722d
 Code:
 #include <sys/uio.h>
         void bar(void) {
             sizeof(struct iovec);
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdatcqycq/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdatcqycq/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeboa722d/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeboa722d/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for type "struct iovec" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppr1_1rlo
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5u6j4mu2
 Code:
 #include <utmpx.h>
         void bar(void) {
             sizeof(struct utmpx);
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppr1_1rlo/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppr1_1rlo/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5u6j4mu2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5u6j4mu2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for type "struct utmpx" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpx74mw_r3
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrivgzzw
 Code:
 
   #include <sys/eventfd.h>
   int main(void) { return eventfd(0, EFD_NONBLOCK | EFD_CLOEXEC); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpx74mw_r3/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpx74mw_r3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrivgzzw/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcrivgzzw/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0c4hn1c9
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1p7da7lv
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3418,9 +3418,9 @@ Code:
   #endif
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0c4hn1c9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp0c4hn1c9/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1p7da7lv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp1p7da7lv/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzslug8bu
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmped9zs62g
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3432,9 +3432,9 @@ Code:
   #include <stddef.h>
   int main(void) { return madvise(NULL, 0, MADV_DONTNEED); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzslug8bu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzslug8bu/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmped9zs62g/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmped9zs62g/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptx0tvl9m
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva5z7jm2
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3447,18 +3447,18 @@ Code:
     extern int madvise(int);
     int main(void) { return madvise(0); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptx0tvl9m/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptx0tvl9m/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva5z7jm2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva5z7jm2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptx0tvl9m/testfile.c:9:16: error: conflicting types for 'madvise'; have 'int(int)'
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva5z7jm2/testfile.c:9:16: error: conflicting types for 'madvise'; have 'int(int)'
     9 |     extern int madvise(int);
       |                ^~~~~~~
-In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmptx0tvl9m/testfile.c:7:
+In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva5z7jm2/testfile.c:7:
 /usr/include/x86_64-linux-gnu/sys/mman.h:94:12: note: previous declaration of 'madvise' with type 'int(void *, size_t,  int)' {aka 'int(void *, long unsigned int,  int)'}
    94 | extern int madvise (void *__addr, size_t __len, int __advice) __THROW;
       |            ^~~~~~~
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpr920ogpx
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5x1xnza0
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3468,9 +3468,9 @@ Code:
   #include <sys/mman.h>
   int main(void) { return memfd_create("foo", MFD_ALLOW_SEALING); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpr920ogpx/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpr920ogpx/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5x1xnza0/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5x1xnza0/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp99w5y8vg
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp121pob6j
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3484,9 +3484,9 @@ Code:
   int main(void) { struct file_handle fh; return open_by_handle_at(0, &fh, 0); }
   #endif
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp99w5y8vg/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp99w5y8vg/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp121pob6j/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp121pob6j/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn_m1yak7
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnzaloex2
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3497,9 +3497,9 @@ Code:
     #include <stddef.h>
     int main(void) { return posix_madvise(NULL, 0, POSIX_MADV_DONTNEED); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn_m1yak7/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn_m1yak7/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnzaloex2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpnzaloex2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ft05w9l
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpoxqzmjtf
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3517,9 +3517,9 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ft05w9l/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6ft05w9l/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpoxqzmjtf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpoxqzmjtf/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3536,19 +3536,19 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e/testfile.c: In function 'f':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e/testfile.c:8:48: warning: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Wint-conversion]
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy/testfile.c: In function 'f':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy/testfile.c:8:48: warning: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Wint-conversion]
     8 |   static void *f(void *p) { pthread_setname_np("QEMU"); return NULL; }
       |                                                ^~~~~~
       |                                                |
       |                                                char *
-In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e/testfile.c:6:
+In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy/testfile.c:6:
 /usr/include/pthread.h:463:42: note: expected 'pthread_t' {aka 'long unsigned int'} but argument is of type 'char *'
   463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
       |                                ~~~~~~~~~~^~~~~~~~~~~~~~~
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmppjz9l06e/testfile.c:8:29: error: too few arguments to function 'pthread_setname_np'
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpckmjc9wy/testfile.c:8:29: error: too few arguments to function 'pthread_setname_np'
     8 |   static void *f(void *p) { pthread_setname_np("QEMU"); return NULL; }
       |                             ^~~~~~~~~~~~~~~~~~
 /usr/include/pthread.h:463:12: note: declared here
@@ -3556,7 +3556,7 @@ In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp
       |            ^~~~~~~~~~~~~~~~~~
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva7p16ry
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpup6i7uiv
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3575,15 +3575,15 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva7p16ry/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva7p16ry/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpup6i7uiv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpup6i7uiv/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpva7p16ry/testfile.c:7:12: fatal error: pthread_np.h: No such file or directory
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpup6i7uiv/testfile.c:7:12: fatal error: pthread_np.h: No such file or directory
     7 |   #include <pthread_np.h>
       |            ^~~~~~~~~~~~~~
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3601,19 +3601,19 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak/testfile.c:12:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'pthread_condattr_init'
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8/testfile.c:12:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'pthread_condattr_init'
    12 |     pthread_condattr_init(&attr);
       |     ^~~~~~~~~~~~~~~~~~~~~
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak/testfile.c:12:28: error: 'attr' undeclared (first use in this function)
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8/testfile.c:12:28: error: 'attr' undeclared (first use in this function)
    12 |     pthread_condattr_init(&attr);
       |                            ^~~~
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpyj3vjmak/testfile.c:12:28: note: each undeclared identifier is reported only once for each function it appears in
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp9q_bj7k8/testfile.c:12:28: note: each undeclared identifier is reported only once for each function it appears in
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4b1n7rr0
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprgpdz8jo
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3637,9 +3637,9 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4b1n7rr0/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp4b1n7rr0/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprgpdz8jo/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmprgpdz8jo/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdceycjp
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsiegud2o
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3650,19 +3650,19 @@ Code:
   #include <stddef.h>
   int main(void) { return signalfd(-1, NULL, SFD_CLOEXEC); }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdceycjp/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdceycjp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsiegud2o/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsiegud2o/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdceycjp/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdceycjp/testfile.c:8:27: warning: argument 2 null where non-null expected [-Wnonnull]
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsiegud2o/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsiegud2o/testfile.c:8:27: warning: argument 2 null where non-null expected [-Wnonnull]
     8 |   int main(void) { return signalfd(-1, NULL, SFD_CLOEXEC); }
       |                           ^~~~~~~~
-In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjdceycjp/testfile.c:6:
+In file included from /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsiegud2o/testfile.c:6:
 /usr/include/x86_64-linux-gnu/sys/signalfd.h:57:12: note: in a call to function 'signalfd' declared 'nonnull'
    57 | extern int signalfd (int __fd, const sigset_t *__mask, int __flags)
       |            ^~~~~~~~
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpx3q2pypb
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpo8tkeji8
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3681,9 +3681,9 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpx3q2pypb/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpx3q2pypb/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpo8tkeji8/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpo8tkeji8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphc_pat6t
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp09t9fn33
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3695,9 +3695,9 @@ Code:
     return mlockall(MCL_FUTURE);
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphc_pat6t/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphc_pat6t/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp09t9fn33/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp09t9fn33/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf7bg3z0n
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfik38squ
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3709,9 +3709,9 @@ Code:
       return mlockall(MCL_FUTURE | MCL_ONFAULT);
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf7bg3z0n/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpf7bg3z0n/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfik38squ/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfik38squ/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwxpbceag
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsfaxnxz2
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3724,10 +3724,10 @@ Code:
             sizeof(struct mmsghdr);
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwxpbceag/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpwxpbceag/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsfaxnxz2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpsfaxnxz2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Checking for type "struct mmsghdr" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jjh5rsz
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn7tcr5q0
 Code:
 
     #include <inttypes.h>
@@ -3739,15 +3739,15 @@ Code:
     #endif
     int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jjh5rsz/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jjh5rsz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn7tcr5q0/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn7tcr5q0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp3jjh5rsz/testfile.c:4:14: fatal error: net/netmap.h: No such file or directory
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpn7tcr5q0/testfile.c:4:14: fatal error: net/netmap.h: No such file or directory
     4 |     #include <net/netmap.h>
       |              ^~~~~~~~~~~~~~
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuztoe33e
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps0g9x2bz
 Code:
 
   #include <linux/fs.h>
@@ -3756,9 +3756,9 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuztoe33e/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpuztoe33e/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps0g9x2bz/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmps0g9x2bz/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphd9dbtsz
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaxvxajbe
 Code:
 
     #include <stdint.h>
@@ -3767,9 +3767,9 @@ Code:
         return printf("%zu", SIZE_MAX);
     }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphd9dbtsz/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphd9dbtsz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaxvxajbe/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaxvxajbe/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiqic6tf
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzlwpwtaj
 Code:
 
   #include <stdint.h>
@@ -3784,18 +3784,18 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiqic6tf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiqic6tf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzlwpwtaj/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzlwpwtaj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm3yerjxv
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm6j7y57k
 Code:
 
   __int128_t a;
   __uint128_t b;
   int main(void) { b = a; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm3yerjxv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm3yerjxv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm6j7y57k/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpm6j7y57k/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7fscm4oe
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzqrhp7zr
 Code:
 
   __int128_t a;
@@ -3807,9 +3807,9 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7fscm4oe/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp7fscm4oe/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzqrhp7zr/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzqrhp7zr/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6lmh6v7q
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphwyahqki
 Code:
 
     int main(int ac, char **av) {
@@ -3820,16 +3820,16 @@ Code:
       return 0;
     }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6lmh6v7q/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp6lmh6v7q/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphwyahqki/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphwyahqki/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 1
 stderr:
-/usr/bin/ld: /tmp/cciBohKH.o: in function `main':
+/usr/bin/ld: /tmp/ccmtXAko.o: in function `main':
 testfile.c:(.text+0x44): undefined reference to `__atomic_load_16'
 /usr/bin/ld: testfile.c:(.text+0x84): undefined reference to `__atomic_store_16'
 /usr/bin/ld: testfile.c:(.text+0xba): undefined reference to `__atomic_compare_exchange_16'
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdvyj4fzo
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp71zaj3k5
 Code:
 __attribute__((optimize("O1")))
     int main(int ac, char **av) {
@@ -3840,16 +3840,16 @@ __attribute__((optimize("O1")))
       return 0;
     }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdvyj4fzo/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpdvyj4fzo/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp71zaj3k5/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp71zaj3k5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 1
 stderr:
-/usr/bin/ld: /tmp/ccTDDxcz.o: in function `main':
+/usr/bin/ld: /tmp/ccPJrypB.o: in function `main':
 testfile.c:(.text+0x16): undefined reference to `__atomic_load_16'
 /usr/bin/ld: testfile.c:(.text+0x34): undefined reference to `__atomic_store_16'
 /usr/bin/ld: testfile.c:(.text+0x5b): undefined reference to `__atomic_compare_exchange_16'
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc9omx0i5
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw323c9ab
 Code:
 
         int main(void)
@@ -3860,9 +3860,9 @@ Code:
         }
       
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc9omx0i5/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc9omx0i5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw323c9ab/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpw323c9ab/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -mcx16 -msse2` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe64q601h
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfam7lzlf
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3874,9 +3874,9 @@ Code:
     return getauxval(AT_HWCAP) == 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe64q601h/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe64q601h/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfam7lzlf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfam7lzlf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67774yqf
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jny73yc
 Code:
 
   #ifndef _GNU_SOURCE
@@ -3890,18 +3890,18 @@ Code:
     return hwcap;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67774yqf/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67774yqf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jny73yc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jny73yc/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67774yqf/testfile.c: In function 'main':
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp67774yqf/testfile.c:9:5: warning: implicit declaration of function 'elf_aux_info' [-Wimplicit-function-declaration]
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jny73yc/testfile.c: In function 'main':
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_jny73yc/testfile.c:9:5: warning: implicit declaration of function 'elf_aux_info' [-Wimplicit-function-declaration]
     9 |     elf_aux_info(AT_HWCAP, &hwcap, sizeof(hwcap));
       |     ^~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccdKNP8G.o: in function `main':
+/usr/bin/ld: /tmp/cckAQY0w.o: in function `main':
 testfile.c:(.text+0x3a): undefined reference to `elf_aux_info'
 collect2: error: ld returned 1 exit status
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphjoqsqed
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjo886osi
 Code:
 
   #include <linux/usbdevice_fs.h>
@@ -3916,9 +3916,9 @@ Code:
 
   int main(void) { return 0; }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphjoqsqed/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmphjoqsqed/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjo886osi/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpjo886osi/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz4y6inrd
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpux0ps2yy
 Code:
 
     #include <errno.h>
@@ -3930,9 +3930,9 @@ Code:
         return syscall(__NR_keyctl, KEYCTL_READ, 0, NULL, NULL, 0);
     }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz4y6inrd/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz4y6inrd/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpux0ps2yy/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpux0ps2yy/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpu2b6bo34
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaak6kfno
 Code:
 
   #include <cpuid.h>
@@ -3951,9 +3951,9 @@ Code:
     return 0;
   }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpu2b6bo34/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpu2b6bo34/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaak6kfno/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpaak6kfno/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpomz1ni13
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj3wz6zdo
 Code:
 
         #include <asm/hwprobe.h>
@@ -3965,16 +3965,16 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpomz1ni13/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpomz1ni13/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj3wz6zdo/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj3wz6zdo/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpomz1ni13/testfile.c:2:18: fatal error: asm/hwprobe.h: No such file or directory
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpj3wz6zdo/testfile.c:2:18: fatal error: asm/hwprobe.h: No such file or directory
     2 |         #include <asm/hwprobe.h>
       |                  ^~~~~~~~~~~~~~~
 compilation terminated.
 -----------
 Header "asm/hwprobe.h" has symbol "RISCV_HWPROBE_EXT_ZBA" : NO 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfr2zbb4z
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc46qqghg
 Code:
 
     #include <cpuid.h>
@@ -3986,9 +3986,9 @@ Code:
     int main(int argc, char *argv[]) { return bar(argv[argc - 1]); }
   
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfr2zbb4z/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfr2zbb4z/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc46qqghg/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc46qqghg/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz1v0cimp
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzh7dfwz2
 Code:
 
     #include <cpuid.h>
@@ -4001,9 +4001,9 @@ Code:
     int main(int argc, char *argv[]) { return bar(argv[0]); }
   
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz1v0cimp/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpz1v0cimp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzh7dfwz2/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpzh7dfwz2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgu78ji4w
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpamcgl_yl
 Code:
 
     #include <arm_neon.h>
@@ -4013,15 +4013,15 @@ Code:
     void foo(uint8x16_t *p) { *p = vaesmcq_u8(*p); }
   
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgu78ji4w/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgu78ji4w/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpamcgl_yl/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpamcgl_yl/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 1
 stderr:
-/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpgu78ji4w/testfile.c:2:14: fatal error: arm_neon.h: No such file or directory
+/media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpamcgl_yl/testfile.c:2:14: fatal error: arm_neon.h: No such file or directory
     2 |     #include <arm_neon.h>
       |              ^~~~~~~~~~~~
 compilation terminated.
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq1owxuo9
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeudfer3i
 Code:
 
   #ifndef _GNU_SOURCE
@@ -4039,9 +4039,9 @@ Code:
     }
   
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq1owxuo9/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpq1owxuo9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeudfer3i/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpeudfer3i/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_t8qzeny
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcsbqcbwv
 Code:
 #include <sys/socket.h>
         #include <linux/vm_sockets.h>
@@ -4053,10 +4053,10 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_t8qzeny/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_t8qzeny/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcsbqcbwv/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpcsbqcbwv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Header "linux/vm_sockets.h" has symbol "AF_VSOCK" : YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqm99osj_
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8puyib5f
 Code:
 
         #include<stddef.h>
@@ -4066,7 +4066,7 @@ Code:
             return 0;
         }
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqm99osj_/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpqm99osj_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8puyib5f/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp8puyib5f/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11` -> 0
 Program stdout:
 
 8
@@ -8819,31 +8819,31 @@ C linker for the host machine: cc -m64 ld.bfd 2.42
 C compiler for the build machine: cc -m64 (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
 C linker for the build machine: cc -m64 ld.bfd 2.42
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe_ei0nun
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8lu76bu
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe_ei0nun/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe_ei0nun/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8lu76bu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8lu76bu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare` -> 0
 Compiler for C supports arguments -Wsign-compare: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmutsd1rk
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfzewmdwt
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmutsd1rk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmutsd1rk/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfzewmdwt/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfzewmdwt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement` -> 0
 Compiler for C supports arguments -Wdeclaration-after-statement: YES 
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiuc30ak
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_pvty89t
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiuc30ak/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiuc30ak/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_pvty89t/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_pvty89t/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing` -> 0
 Compiler for C supports arguments -Wstrict-aliasing: YES 
 Dependency threads found: YES unknown (cached)
 Dependency glib-2.0 found: YES 2.80.0 (overridden)
@@ -8860,7 +8860,7 @@ C linker for the host machine: cc -m64 ld.bfd 2.42
 C compiler for the build machine: cc -m64 (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
 C linker for the build machine: cc -m64 ld.bfd 2.42
 Using cached compile:
-Cached command line:  cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe_ei0nun/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpe_ei0nun/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+Cached command line:  cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8lu76bu/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpc8lu76bu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
 
 Code:
  extern int i;
@@ -8872,7 +8872,7 @@ Cached compiler stderr:
  
 Compiler for C supports arguments -Wsign-compare: YES (cached)
 Using cached compile:
-Cached command line:  cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmutsd1rk/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpmutsd1rk/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+Cached command line:  cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfzewmdwt/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpfzewmdwt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
 
 Code:
  extern int i;
@@ -8884,7 +8884,7 @@ Cached compiler stderr:
  
 Compiler for C supports arguments -Wdeclaration-after-statement: YES (cached)
 Using cached compile:
-Cached command line:  cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiuc30ak/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpkiuc30ak/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing 
+Cached command line:  cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_pvty89t/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_pvty89t/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing 
 
 Code:
  extern int i;
@@ -12088,13 +12088,13 @@ C compiler for the build machine: cc -m64 (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu
 C linker for the build machine: cc -m64 ld.bfd 2.42
 Configuring platform.h using configuration
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa9s2vd87
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_ctzfj46
 Code:
 extern int i;
 int i;
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa9s2vd87/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpa9s2vd87/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-pragmas -Wno-ignored-pragmas` -> 1
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_ctzfj46/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp_ctzfj46/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-pragmas -Wno-ignored-pragmas` -> 1
 stderr:
 cc: error: unrecognized command-line option '-Wignored-pragmas'; did you mean '-Wno-pragmas'?
 -----------
@@ -12790,12 +12790,12 @@ stdout:
 -lglib-2.0 -lm -pthread -lpcre2-8
 -----------
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5lyek3md
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpspmmhlfp
 Code:
 int main(void) { return 0; }
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5lyek3md/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmp5lyek3md/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpspmmhlfp/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpspmmhlfp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
 Run-time dependency glib-2.0 found: YES 2.80.0
 Program initrd-stress.sh found: YES (/bin/sh /media/andrea/Acer/group7-TPM/qemu/tests/migration-stress/initrd-stress.sh)
 Adding test "func-aarch64-migration"
@@ -13254,11 +13254,11 @@ qemu 10.0.50
 
 Found ninja-1.11.1 at /usr/bin/ninja
 Running compile:
-Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpd2duv8rc
+Working directory:  /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpktec7hsm
 Code:
 
 -----------
-Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpd2duv8rc/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpd2duv8rc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+Command line: `cc -m64 /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpktec7hsm/testfile.c -o /media/andrea/Acer/group7-TPM/qemu/build/meson-private/tmpktec7hsm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
 stdout:
 install: /usr/lib/gcc/x86_64-linux-gnu/13/
 programs: =/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/
